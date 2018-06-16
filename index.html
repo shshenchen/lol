@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/common.css">
+		<style>
+			html,body {
+				height: 100%;
+			}
+			header {
+				position: relative;
+				height:100%;
+				min-height: 600px;
+			    background:url(img/b60547eff7a910e8b08945e37bfff1d6.jpg) center center no-repeat;
+			    background-size: cover;
+			}
+			header::before {
+				content:'';
+				display: block;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: rgba(255,255,255,0.3);
+			}
+			header .logo {
+				font-family:Times;
+				color:#f7ba3e;
+				font-size:48px;
+				float:left;
+				margin-top: 10px;
+			}
+			header .nav{
+				float:right
+			}
+			header .nav > li {
+				float:left;
+				margin: 10px;
+			}
+			header .nav a {
+				display: block;
+				padding: 5px;
+				border-radius:4px;
+				color:#fff;
+				font-size:16px;
+			}
+			header .nav a:hover {
+				background:#f7ba3e;
+			}
+			header .intro {
+				position: absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%,-50%);
+				color:#fff;
+				text-align: center;
+			}
+			header .intro h1 {
+				font-size: 32px;
+			}
+			header .intro h2 {
+				font-size:40px;
+				margin-top:20px;
+			}
+			header .intro .button {
+				margin-top:20px;
+			}
+			header .intro a:hover {
+				background:#ff8800;
+			}
+			.iconfont {
+                font-family: 'iconfont';  /* project id 677003 */
+                src: url('//at.alicdn.com/t/font_677003_38f5i6jrh0s2x1or.eot');
+                src: url('//at.alicdn.com/t/font_677003_38f5i6jrh0s2x1or.eot?#iefix') format('embedded-opentype'),
+                url('//at.alicdn.com/t/font_677003_38f5i6jrh0s2x1or.woff') format('woff'),
+                url('//at.alicdn.com/t/font_677003_38f5i6jrh0s2x1or.ttf') format('truetype'),
+                url('//at.alicdn.com/t/font_677003_38f5i6jrh0s2x1or.svg#iconfont') format('svg');
+            }
+            section {
+            	text-align: center;
+            	margin-top: 30px;
+            }
+            section > h2 {
+            	font-size:40px;
+            }
+            section > ul > li > h3 {
+            	font-size: 25px;
+            }
+            section > ul > li > p {
+            	font-size:18px;
+            }
+            section > p {
+            	margin-top: 10px;
+            }
+            section > ul >li {
+            	float:left;
+            	width: 33.33%;
+            	padding:10px 20px;
+            }
+            section > ul p {
+            	margin-top:10px ;
+            }
+		</style>
+	</head>
+	<body>  
+		<header>
+			<div class="navbar layout clearfix">
+				<a href="http://lol.qq.com/" class="logo">League of Legends</a>
+				<ul class="nav">
+					<li><a href="http://lol.qq.com/web201310/info-heros.shtml">游戏资料</a></li>
+					<li><a href="http://daoju.qq.com/lol/">商城/合作</a></li>
+					<li><a href="http://lol.qq.com/act/a20150326dqpd/">服务器状态查询</a></li>
+					<li><a href="http://lpl.qq.com/">赛事中心</a></li>
+					<li><a href="http://lol.qq.com/act/a20170704super/index.shtml?e_code=336975">峡谷之巅</a></li>
+				</ul>
+				<div class="intro layout">
+					<h1>我回来了</h1>
+					<h2>为了那些永远回不来的人</h2>
+					<a class="button" href="http://lol.qq.com/">重启你的征程</a>
+				</div>
+			</div>
+		</header>
+		<main class="layout">
+			<section>
+				<h2>符文大陆介绍</h2>
+				<p>关于各个地区的介绍</p>
+				<ul>
+					<li>
+						<span class="iconfont"></span>
+						<h3>德玛西亚</h3>
+						<p>德玛西亚是一个实力雄厚、奉公守法的国家，有着功勋卓著的光荣军史。这里非常重视正义、荣耀、职责的意识形态，这里的人民为此感到强烈自豪。</p>
+					</li>
+					<li>
+						<span class="iconfont"></span>
+						<h3>诺克萨斯</h3>
+						<p>诺克萨斯是一个威名震天的强大帝国。在诺克萨斯境外的人眼中，它拥兵自重、血腥野蛮、欲壑难填，但对于那些看透它好战外表的人来说，这里的社会氛围实际上超乎寻常地包容。</p>
+					</li>
+					<li>
+						<span class="iconfont"></span>
+						<h3>艾欧尼亚</h3>
+						<p>艾欧尼亚的土地上充盈着未遭破坏的自然之美和原生魔法。这座庞大的岛屿上四散着人类的定居点，这是一群充满灵性的人，追求着平静和谐、与世无争的生活。</p>
+					</li>
+				</ul>
+			</section>
+			<section></section>
+			<section></section>
+			
+		</main>
+		<footer></footer>
+	</body>
+</html>
